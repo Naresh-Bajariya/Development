@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form of bank</title>
+</head>
+
+<body>
+    <form action="">
+        <table align="center" width="65%">
+            <thead>
+                <tr bgcolor="63A3D7">
+                    <th colspan="3">
+                        <b>
+                            <font size="6px" color="red">
+
+                                Individul Registration
+                            </font>
+                        </b>
+                    </th>
+                </tr>
+                <!-- margin tr  -->
+
+        </table>
+        </thead>
+        <table width="65%" align="center" bgcolor="cfe0f2" style="padding: 30px;" cellpadding="5px">
+            <br>
+            <br>
+            <tbody>
+                <!-- User Particular -->
+                <tr>
+                    <th colspan="3" align="left">
+                        <b>
+                            <font color="red">
+                                User Particular
+                            </font>
+                        </b>
+                    </th>
+                </tr>
+                <tr>
+                    <td align="center" colspan="3">
+                        <table>
+                            <!-- login -->
+                            <tr>
+                                <td align="right">
+                                    <label for="login">Login Id </label>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <!-- password -->
+                            <tr>
+                                <td align="right">
+                                    <label for="password"> Password</label>
+                                </td>
+                                <td>
+                                    <input type="password">
+                                </td>
+                            </tr>
+                            <!-- Confirm password -->
+                            <tr>
+                                <td>
+                                    <label for="password">Confirm Password</label>
+                                </td>
+                                <td>
+                                    <input type="password">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Personal Particular -->
+                <tr>
+                    <th colspan="3" align="left">
+                        <b>
+                            <font color="red">
+
+                                Personal Particular
+                            </font>
+                        </b>
+                    </th>
+                </tr>
+                <tr>
+                    <!-- td 1 Personal -->
+                    <td width="48%" align="right">
+                        <table>
+                            <tr>
+                                <td align="right">
+                                    <label for="salutation">Salutation</label>
+                                </td>
+                                <td>
+                                    <select name="salutation" id="salutation">
+                                        <option value="0">select</option>
+                                        <option value="1">Dear.</option>
+                                        <option value="2">Sir.</option>
+                                        <option value="3">Mr.</option>
+                                        <option value="4">Ms.</option>
+                                        <option value="5">Mr.</option>
+                                        <option value="6">Dr.</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label for="name">Middle Name</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="middlename" maxlength="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label for="name">Resident Status</label>
+                                </td>
+                                <td>
+                                    <select name="Resident" id="Resident">
+                                        <option value="Citizen">Citizen</option>
+                                        <option value="PR">Permanent Resident</option>
+                                        <option value="Foreigner">Foreigner</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label for="email">Email</label>
+                                </td>
+                                <td>
+                                    <input type="email" name="email" id="email" placeholder="myname@example.com">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!-- space td  -->
+                    <td width="4%"> </td>
+                    <!-- td2 Personal -->
+                    <td width="48%" align="left">
+                        <table>
+                            <tr>
+                                <td align="right">
+                                    <label for="name">First Name</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="firstname" maxlength="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label for="name">Last Name</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="lastname" maxlength="30">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label for="country">Country</label>
+                                </td>
+                                <td>
+                                    <select name="country" id="country">
+                                        <option value="0">India</option>
+                                        <option value="1">America</option>
+                                        <option value="2">Rasiya</option>
+                                        <option value="3">France</option>
+                                        <option value="4">Britan</option>
+                                        <option value="5">Chaina</option>
+                                        <option value="6">Canada</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <label for="number"> Mobile Number</Address></label>
+                                </td>
+                                <td>
+                                    <input type="tel" id="number">
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+                <!-- Account Particular -->
+                <tr>
+                    <th colspan="3" align="left">
+                        <b>
+                            <font color="red">
+
+                                Account Particulars
+                            </font>
+                        </b>
+                    </th>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <table>
+                            <!-- 15 Digit Account No -->
+                            <tr>
+                                <td>
+                                    <label for="account no"> 15 Digit Account No</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="accountno" id="accountno" maxlength="15" minlength="15">
+                                </td>
+                            </tr>
+                            <!-- Fund Transfer -->
+                            <tr>
+                                <td>
+                                    <label for="fund">Fund Transfer</label>
+                                </td>
+                                <td>
+                                    <select name="fund" id="fund">
+                                        <option value="0">Select</option>
+                                        <option value="1">5000</option>
+                                        <option value="2">10000</option>
+                                        <option value="3">50000</option>
+                                        <option value="4">100000</option>
+                                        <option value="5">1000000</option>
+                                        <option value="6">10000000</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <!-- margin td  -->
+                    <td></td>
+                    <!-- account 2nd td  -->
+                    <!-- Nick Name -->
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="name">Nick Name</label>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <br>
+                <!-- DECLARATION -->
+                <tr>
+                    <th colspan="3" align="left">
+                        <b>
+                            <font color="red">
+
+                                DECLARATION
+                            </font>
+                        </b>
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="4">
+
+                        <font size="4px">
+                            I have read, understood and hereby agree to the Terms and Conditions in respect of all
+                            products and channels. <br>
+                            I understand that any changes in the terms and conditions applicable to this relationship
+                            would be made available to me on request at any IOB branches. I confirm that all accounts
+                            under this login name are operated singly and in case of joint account operated by either or
+                            survivor anyone or survivor(s) under his her joint name respectively. I do hereby declare
+                            that information furnished in this form is true to the best of my knowledge and belief
+                        </font>
+
+                    </td>
+                </tr>
+                <!-- submit  -->
+                <tr>
+                    <td align="center" colspan="3">
+                        <button>
+                            Submit
+                        </button>
+                        <button>
+                            Rest
+                        </button>
+
+                    </td>
+                </tr>
+
+        </table>
+
+    </form>
+</body>
+
+</html>

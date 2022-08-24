@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back Graound attachment</title>
+    <style>
+        div{
+            height: 600px ;
+            border: 15px  dashed violet;
+        }
+    .big-attachment{
+        background-image: url(images.jpg);
+        /* background-attachment: local; */
+        /* background-attachment: scroll; */
+        background-attachment: fixed; 
+        /* background-position: center; */
+
+     } 
+    .big-clip{
+        background-image: url(download.jpg);
+       background-clip: border-box;
+
+    }
+    .big-origin{
+        background-image: url(download.jpg);
+        background-origin: border-box;
+
+    }
+    .big-color{
+        background-image: url(download.jpg);
+        background-origin: border-box;
+        background-repeat:no-repeat ;
+
+    }
+    .big-position{
+        background-image: url(download.jpg);
+        background-position: center;
+
+    }
+    .big-repeat{
+        background-image: url(download.jpg);
+        background-repeat:no-repeat ;
+        background-position: center;
+        background-clip: border-box;
+        /* background-origin: border-box; */
+
+    }
+
+    .big-size{
+        background-image: url(download.jpg);
+        background-size: contain;
+        /* background-size: cover; */
+        background-repeat:no-repeat ;
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <li> background-Attachment</li>
+        <li> background-Clip</li>
+        <li> background-color</li>
+        <li> background-Image</li>
+        <li> background-Origin</li>
+        <li> background-Position</li>
+        <li> background-Repeat</li>
+        <li> background-Size</li>
+
+
+    </ul>
+    <div class="big-attachment"> </div><br>
+    <div class="big-clip"></div><br>
+    <div class="big-origin"></div><br>
+    <div class="big-color"></div>  <br> 
+    <div class="big-position"></div>  <br>
+    <div class="big-repeat"></div> <br> 
+    <div class="big-size"></div>  
+</body>
+</html>  

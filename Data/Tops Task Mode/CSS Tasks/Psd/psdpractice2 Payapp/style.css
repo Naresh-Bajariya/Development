@@ -1,0 +1,320 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+div {
+    border: 1px solid;
+}
+
+img {
+    width: 100%;
+}
+
+.br-radius {
+    border-radius: 25px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-33 {
+    width: 28%;
+    margin: 30px;
+}
+
+.col-25 {
+    width: 22%;
+    margin: 12px;
+    border-radius: 15px;
+}
+
+.col-45 {
+    width: 45%;
+}
+
+.col-55 {
+    width: 55%;
+}
+
+h1 {
+    font-size: 87px;
+    line-height: 90px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.btn-2 {
+    padding: 3px 10px;
+    border-radius: 13px;
+    background-color: rgb(127, 255, 234);
+}
+
+.py-18 {
+    padding-top: 9.5rem;
+    padding-bottom: 9.5rem;
+}
+input{
+    padding: 7px;
+}
+.py-1 {
+    padding-top: 15px;
+}
+
+/* ---------------margin---------- */
+
+.my-11 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.m-a {
+    margin: 0 auto;
+}
+
+.ml-1 {
+    margin-left: -100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 19px;
+    margin: 30px 0px;
+}
+
+.main-header {
+    background-color: rgb(127, 255, 234);
+    text-align: center;
+    padding: 10px;
+}
+
+nav .navbar li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 3px 10px;
+    border-radius: 13px;
+    background-color: black;
+}
+
+.discover-text {
+    padding: 100px 0px 0px 10px;
+}
+
+.discover-text p {
+    text-align: left;
+    padding-right: 240px;
+}
+
+.phone-img {}
+
+.lorem-t-2 {
+    padding: 30px;
+    width: 55%;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: -16px 9px 28px gray;
+    position: relative;
+    bottom: 260px;
+    left: 21px;
+}
+
+.lorem-t-2 p {
+    margin: 10px;
+}
+
+.col-25 img {
+    border-radius: 10px;
+    /* height: 100%; */
+}
+
+.app-img {
+    height: 180px;
+}
+
+.our-header ,.contact-header {
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.app-header p {
+    margin: 0px;
+}
+
+#section-1 {
+    background-color: rgb(14, 14, 62);
+}
+
+.col-25-text {
+    text-align: center;
+    color: white;
+}
+
+.about-img {
+    padding: 30px 30px 30px 0px;
+}
+
+.about-text {
+    width: 80%;
+    padding: 85px 10px;
+}
+
+.lorem-t-3 {
+    padding: 70px 69px;
+    width: 60%;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(15, 14, 14);
+    color: rgb(127, 255, 234);
+    position: relative;
+    bottom: 108px;
+    left: 300px;
+    text-align: center;
+}
+
+.our-text {
+    width: 95%;
+    padding: 85px 47px;
+}
+
+.section-3 {
+    background-color: rgb(14, 14, 62);
+}
+
+.blog-header {
+    color: rgb(9, 9, 32);
+}
+
+.blog-img {}
+
+.col-33-text {
+    text-align: center;
+}
+
+.read {
+    color: rgb(9, 9, 32);
+}
+.news-text{
+    width: 80%;
+}
+.form {
+    width: 85%;
+    margin: 20px 30px;
+    padding: 30px 40px;
+    background-color: rgb(14, 14, 62);
+}
+.form-h {
+    color: white;
+    font-weight: 900;
+}
+.surname input {
+    width: 200px;
+}
+
+.email input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+/* -----------section-6------------ */
+
+.contact-header {
+color: black;
+}
+.map-address{
+    width: 20%;
+    text-align: center;
+    padding: 0px 35px;
+}
+
+#footer{
+}
+.footer-wrapper{
+    background-color: rgb(14, 14, 62);
+    margin-top: 300px;
+}
+.footer-logo img{
+    color: white;
+    width: 90px;
+    
+}
+.footer-menu ul li {
+    color: white;
+}
+.left{
+    width: 70% ;
+    padding-top: 40px;
+}
+.f2-rel{
+
+    position: relative;
+}
+
+.footer-img{
+    width: 15%;
+    top: -150px;
+    position: absolute;
+    z-index: 10000;
+    right: 30%;
+}
+.copyright{
+    color: white;
+    padding: 10px 0px;
+}
+.footer-icon ul li {
+    padding: 10px 30px;
+}
+
+
+    

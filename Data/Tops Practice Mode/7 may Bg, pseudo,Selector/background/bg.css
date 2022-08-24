@@ -1,0 +1,32 @@
+div{
+    height: 300px ;
+    background-repeat: no-repeat;
+    border: 15px  dashed rgb(101, 96, 101);
+}
+.big-clip1{
+    background-image: url(download.jpg);
+   background-clip: border-box;
+
+}
+.big-clip2{
+    background-image: url(download.jpg);
+   background-clip: padding-box;
+
+}
+.big-clip3{
+    background-image: url(download.jpg);
+   background-clip: content-box;
+
+}
+.big-origin1{
+    background-image: url(download.jpg);
+    background-origin: border-box;
+}
+.big-origin2{
+    background-image: url(download.jpg);
+    background-origin: padding-box;
+}
+.big-origin3{
+    background-image: url(download.jpg);
+    background-origin: content-box;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo Class
+    </title>
+    <style>
+        div {
+            color: rgb(255, 153, 0);
+        }
+
+        /* a:link {
+            color: rgb(24, 206, 148) !important;
+        } */
+
+        a:active {
+            color: rgb(142, 24, 206);
+        }
+
+        /* a:visited {
+            color: rgb(206, 24, 51);
+        } */
+
+        input:focus-visible {
+            outline: 2px solid greenyellow;
+            border: 2px solid green
+        }
+
+        p>a:hover {
+            color: aqua;
+        }
+        div:empty{ height: 10px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- empty div for empty seudo classes -->
+    <div ></div>
+    <!-- pseudo Class -->
+    <input type="text" name="" id="">
+    <div>
+        <p>
+            this is a text
+            <a href="#">somthing New</a><br>
+            <a href="asdfasdf">somthing New</a>
+        </p>
+    </div>
+    <a href="https://www.google.com/"> google</a><br>
+    <a href="https://www.flipkart.com/"> flipkart</a><br>
+    <a href="https://www.amazon.com/"> amazon</a><br>
+    <p>
+        <a href="https://www.youtube.com/"> youtube</a>
+    </p>
+
+
+</body>
+
+</html>

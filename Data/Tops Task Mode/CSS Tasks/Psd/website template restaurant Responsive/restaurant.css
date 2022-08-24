@@ -1,0 +1,469 @@
+/* --------------global css ----------- */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    padding: 0 15px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container>* {
+    margin: 0 -15px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* -------------col :start-------------- */
+.col-33 {
+    width: 33.33%;
+    padding: 0px 15px;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0px 15px;
+    margin: 10px 0px;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+/* ----------------COL :end---------------- */
+
+.justify {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-lighter {
+    font-weight: lighter;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------------heading start ------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: GrandHotel;
+}
+
+h1,
+h2,
+h5,
+h4,
+h6 {
+    font-weight: lighter;
+}
+
+h1 {
+    font-size: 15.6rem;
+    color: white;
+}
+
+h2 {
+    font-size: 7.8rem;
+   }
+
+h3 {
+    font-size: 6.25rem;
+    color: ;
+}
+
+h4 {
+    font-size: 5.3rem;
+}
+
+h5 {
+    font-size: 4.18rem;
+    color: #ed4d55;
+}
+
+h6 {
+    font-size: 3.125rem;
+   }
+
+/* --------------color--------------- */
+.white {
+    color: white;
+}
+
+.tomato {
+    color: #ed4d55;
+}
+
+
+/* ----------------heading end ------------- */
+
+/* parragraph */
+p {
+    font-family: lato;
+}
+
+.p-30 {
+    font-size: 1.87rem;
+}
+
+.p-22 {
+    font-size: 1.37rem;
+}
+
+.p-50 {
+    font-size: 3.125rem;
+}
+
+/* --------------button start ------------------ */
+.btn {
+    color: #ed4d55;
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 1.56rem;
+    background-color: white;
+}
+
+.btns {
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 1.56rem;
+    color: white;
+    background-color: #ed4d55;
+
+}
+
+.btn-2 {
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 1.56rem;
+    color: white;
+    background-color: #ed4d55;
+    padding: 10px 40px;
+}
+
+/* -----------font family start ----------- */
+@font-face {
+    font-family: GrandHotel;
+    src: url(fonts/Grand_Hotel/GrandHotel-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato/Lato-Regular.ttf);
+}
+
+/* -----------font family end ----------- */
+
+
+
+/* ------------ margin start ------------- */
+.m-a {
+    margin: 0 auto;
+}
+
+.my {
+    margin: auto 0px;
+}
+
+.my-7 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.mt-1 {
+    margin-top: 2rem;
+}
+.mt-2{
+    margin-top: 4rem;
+}
+.mx-3{
+    margin:0  4rem 0 0;
+}
+
+/* ------------ margin end --------------- */
+
+
+
+
+/* ------------ padding start ------------- */
+
+.py-1 {
+    padding: 30px 0px;
+}
+
+/* ------------ padding end --------------- */
+
+
+
+/* ------------ header start ------------ */
+.bg-img {
+    background-image: url(images/bg\ img\ head\ 2.png);
+    background-size: cover;
+    padding: 0px;
+
+}
+
+
+.navbar li {
+    display: inline-block;
+    padding: 30px 40px;
+    color: white;
+    font-family: lato;
+}
+
+.header-text,
+.popural-text,
+.statistic-text,
+.our-menu-text,
+.chef-renatta-text {
+    width: 70%;
+}
+
+.header-head-text {
+    color: white;
+}
+
+.logo-head {
+    width: 20%;
+}
+
+/* ------------ header end ------------ */
+
+
+/* ------------- main start ------------ */
+.popular-wrapper {
+    background-image: url(images/popular-bg.png);
+    background-size: cover;
+}
+
+.popural-head {
+    color: #ed4d55;
+}
+
+.pasta-img {
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.pasta-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#our-menu {
+    background-color: #eee6cc;
+}
+
+/* -----------------new section statistic-wrapper start -------------- */
+
+.statistic-wrapper {
+    background-image: url(images/statistic-bg.png);
+}
+
+.statistic-circle-wrap {
+    padding: 60px;
+}
+
+.statistic-circle {
+    padding: 25% 0%;
+    border-radius: 50%;
+    border: dashed 5px white;
+}
+
+/* -----------------new section statistic-wrapper end -------------- */
+
+.font {
+    font-family: lato;
+    color: white;
+}
+
+.pasta-icon {
+    padding: 30px 40px;
+}
+
+.package {
+    margin: 12px;
+}
+
+.package-img {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.package-menu-wrapper {
+    background-color: #eee6cc;
+}
+
+/* ----------------chef-renatta start --------------- */
+
+.chef-renatta-wrapper {
+    background-image: url(images/Chef\ Renatta\ bg.png);
+    background-size: cover;
+   }
+
+.chef-renatta-img {
+    width: 30%;
+}
+
+.chef-renatta-img img {
+    border-radius: 50%;
+
+}
+.chef-renatta-text{
+    font-weight: bold;
+}
+/* ---------------section subscribe ------------ */
+.subscribe{
+    background-color: #eee6cc;
+
+}
+.subscribe-wrapper{
+}
+
+.input{
+    width: 60%;
+    padding:10px 40px ;
+}
+.input input{
+    border-radius: 30px;
+    width: 70%;
+    padding: 20px 20px;
+}
+.subscribe-btn{
+   margin-left: -50px;
+}
+
+/* ------------- main end ------------ */
+
+/* --------------- footer start ----------- */
+#footer{
+    background-color: #2a2a2a;
+}
+.footer-wrap{
+    color: white;
+}
+.footer-head-text{
+    width: 40%;
+}
+.icon li a i {
+    /* color: black; */
+}
+/* --------------- footer end ------------- */
+html{
+    font-size: 16px;
+}
+/* mediaquery */
+
+@media (min-width:350px) {
+    .container {
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .col-33 {
+        width: 100%;
+    }
+    .col-30{
+        width: 100%;
+    }
+    .col-70{
+        width: 100%;
+    }
+    html{
+        font-size: 50%;
+    }
+}
+@media (min-width:576px) {
+    
+    .container {
+        width: 570px;
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .col-33 {
+        width: 100%;
+    }
+    html{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 11rem;
+    }
+}
+
+
+@media (min-width:992px) {
+    .container {
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .col-33 {
+        width: 50%;
+    }
+    html{
+        font-size: 100%;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+    .col-50 {
+        width: 50%;
+    }
+    .col-33 {
+        width: 33.33%;
+    }
+    html{
+        font-size: 100%;
+    }
+}

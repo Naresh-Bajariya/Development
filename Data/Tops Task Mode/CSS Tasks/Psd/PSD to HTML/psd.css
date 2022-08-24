@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Archivo;
+    src: url(static/Archivo/Archivo-Medium.ttf);
+}
+
+.header {
+    width: 100%;
+}
+
+.header1 {
+    width: 100%;
+    height: 793px;
+    background-image: url(images/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+
+}
+
+.row-1 {
+    width: 100%;
+    /* height: 150px; */
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000000 85%, #000000 100%);
+    display: flex;
+    justify-content: space-between;
+}
+.navlink ul li{
+    font-size: 25px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding: 12px 11px;
+    position: relative;
+    top: 48px;
+}
+
+.navlogo img {
+    /* vertical-align: middle; */
+    padding: 55px 0px 0px 83px ;
+}
+
+
+/* row-2 */
+.row-2 {
+    padding: 0px 80px;
+}
+
+.row-2 h2 {
+    font-size: 91px;
+    /* line-height: 97px; */
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Archivo";
+}
+
+.row-2>p {
+    /* width: 1090px; */
+    /* height: 44px; */
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Nunito";
+    margin: -36px 0px;
+}
+
+.row-3 {}
+
+.row-2>button {
+    width: 322px;
+    height: 65px;
+    border-radius: 32px;
+    background-color: #f64b3c;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 85px 0px;
+}

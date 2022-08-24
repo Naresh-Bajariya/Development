@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    border: 1px solid;
+    width: 100%;
+    padding: 8px 0px;
+    
+}
+
+.middle {
+    vertical-align: middle;
+}
+/* header div 1 */
+.searchbox {
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 7px 10px;
+    display: inline;
+}
+
+.search {
+    width: 23%;
+    padding: 5px 10px;
+    border: none;
+}
+
+.search:focus {
+    outline: none;
+}
+/*header div 2 */
+.header-menu {
+    display: inline-block ;
+    padding: 0px;
+    margin-left: 65px;
+}
+.location{
+    vertical-align: middle;
+}
+.menu > li {
+    display: inline;
+    /* width: 50%; */
+    /* text-decoration:underline gold; */
+}
+.menu >li a {
+    text-decoration:none;
+    font-size: small;
+    font-family:sans-serif ;
+    /* font-weight: bold; */
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.anch{
+    color: rgba(43, 30, 30, 0.829);
+}
+.cart span{
+    color: rgba(43, 30, 30, 0.829);
+    font-weight: bold;
+}
+.store li {
+    list-style-type: none;
+    
+}
+.store{
+    position: absolute;
+    z-index: 1;
+    right: 490px;
+    top: 42px;
+    background-color: rgb(255, 240, 240);
+    padding: 10px;
+    display:none ;
+    
+}
+
+.hover-me:hover .store{
+    display:block;
+}
+
+
+/* maintag css start */
+.section1{
+    border: 1px solid;
+    width: 100%;
+    padding: 9 px ;
+    background-color: rgb(255, 213, 0);
+}
+.categry-ul li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: small;
+    font-family:sans-serif ;
+    
+}
+.categry a
+{    
+    text-decoration:none;
+    padding-right: 2px;
+    margin-left: 12px;
+    }
+.categry a :hover{
+    background-color: aliceblue;
+}
+img.carter{
+    vertical-align: middle;
+    }
+    
+    /* section3 */
+    .div3{
+       
+        display:flex;
+    }
+
+    
+    .banner{
+        width: 100%;
+        height: 460px;
+    }
+    
+    .col{
+        margin: 10px;
+    }
+    .posi-rela{
+        position: relative;
+        
+    }
+    .posi-ab{
+        position: absolute;
+        width: 60px;
+        top: 50px;
+        /* margin: 15px; */
+    }

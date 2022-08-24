@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persnoal Details Form</title>
+</head>
+
+<body style="background-color: darkgoldenrod;">
+    <!-- Header -->
+    <div align="center" style="background-color: cyan;">
+        <h1>Persnoal Details</h1>
+    </div>
+    <hr color="black">
+    <!-- Starting FORM Here -->
+    <div align="center">
+        <form action="page.php" target="_blank" enctype="multipart/form-data" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="salutation">Salutation:</label>
+                    </td>
+                    <td>
+                        <select style="width: 100%; padding: 5px;" name="salutation" id="salutation">
+                            <option value="0">select</option>
+                            <option value="1">Dear.</option>
+                            <option value="2">Sir.</option>
+                            <option value="3">Mr.</option>
+                            <option value="4">Ms.</option>
+                            <option value="5">Mr.</option>
+                            <option value="6">Dr.</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="firstname">firstname :</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px; " type="text" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lastname">Lastname:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px; width: 10; " type="text" name="name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender :</label>
+                    </td>
+                    <td>
+                        <label for="male">
+                            <input style="padding: 5px;" type="radio" name="gender" id="male" value="male">Male</label>
+
+                        <label for="female">
+                            <input style="padding: 5px;" type="radio" name="gender" id="female"
+                                value="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                    </td>
+                    <td>
+                        <input style="padding: 5px; width: 100%;" type="email" name="email" id="email"
+                            placeholder="myname@example.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">Date Of Birth:</label>
+                    </td>
+                    <td>
+                        <input style="width: 100%; padding: 5px;" type="date" name="dob" id="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address"> Address: </Address></label>
+                    </td>
+                    <td>
+                        <textarea name="address" id="adress" cols="30" rows="4"></textarea>
+                    </td>
+                </tr>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <input style="padding: 5px;" type="submit" name="submit" id="submit">
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

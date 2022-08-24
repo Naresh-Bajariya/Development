@@ -1,0 +1,308 @@
+:root {
+    --bs-white: #ffffff;
+    --bs-teal: #20c997;
+    --bs-black: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.display_block {
+    display: block;
+}
+
+/* ------------------------ header-1 start -----------------   */
+
+.Header-a {
+    background: #000;
+}
+
+.header ul {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.header ul li {
+    /* display: inline-block; */
+    /* width: 24.5%; */
+    text-align: center;
+    color: var(--bs-white);
+    font-size: 13px;
+    padding: 7px 0;
+    letter-spacing: 1px;
+    border-right: 1px solid #464444;
+    border-left: 1px solid #464444;
+    list-style: none;
+}
+
+.header ul li a {
+    color: var(--bs-white);
+}
+
+.header ul li i {
+    color: var(--bs-teal);
+}
+
+.modal-dialog {
+    max-width: 70%;
+}
+
+/* ------------------------ header-1 sign-in password css start -----------------   */
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
+
+
+
+
+
+
+/* ------------------------ header-1 sign-in password css end -----------------   */
+
+/* ------------------------ header-1 end -----------------   */
+
+/* ---------------------------- .header-2 start ------------------------  */
+
+.header-2 {
+    background-color: var(--bs-white);
+    padding: 10px 0px;
+
+}
+
+ .navbar-pad li::after{
+     content: ("");
+    width: 80px;
+    height: 2px;
+    position:absolute;
+    border-bottom:5px solid red ;
+    /* background: red; */
+    transition: width 1s;
+}
+.navbar-pad li::after:hover {
+    width: 10px;
+}
+
+.wrap {
+    line-height: 30px;
+    align-items: baseline;
+}
+
+.logo_agile span {
+    background: #000;
+    padding: 0 17px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+/* .logo_agile h1 {
+} */
+
+.logo_agile h1 a {
+    color: var(--bs-black);
+    font-weight: 400;
+}
+
+/* ------------- social nav header 2 --------------- */
+
+.social-nav {
+    padding: 0;
+    display: inline-block;
+    margin: 1em 0 0;
+}
+
+li.share {
+    vertical-align: middle;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.social-nav li {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.social-nav a {
+    display: inline-block;
+    width: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    transition: 0.5s;
+}
+
+.model-3d-0 a:hover {
+    transform: rotateX(-90deg);
+}
+
+.model-3d-0 a {
+    /* background: #5C5B5B; */
+    transform-style: preserve-3d;
+}
+
+.model-3d-0 .front {
+    width: 30px;
+    position: absolute;
+    transform: translateZ(18px);
+    backface-visibility: visible;
+    color: #ebe5e5;
+    font-size: 12px;
+}
+
+
+.model-3d-0 .back {
+    transform: rotateX(90deg) translateZ(18px);
+    backface-visibility: hidden;
+}
+
+a.facebook .front {
+    background: #3b5998;
+}
+
+a.twitter .front {
+    background: #00acee;
+}
+
+a.instagram .front {
+    background: #f77737;
+}
+
+a.pinterest .front {
+    background: #bd081c;
+}
+
+/* -------------- header -3 ---------------- */
+
+.nav-menu {
+    font-size: 1rem;
+
+}
+
+.navbar-menu-text {
+    font-size: 1.3rem;
+}
+
+.navbar-pad li a {
+    padding: 0px 10px !important;
+}
+
+.navbar-pad li {
+    margin: 0px 8px;
+}
+
+.box_1 {
+    background: #2fdab8;
+    text-align: center;
+    padding: 15px 0;
+    /* margin: 0 25px; */
+}
+
+
+ul.dropdown-menu.columns-3 {
+    margin-top: 10px;
+}
+
+ul.multi-column-dropdown li {
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+ul.multi-column-dropdown li a:hover {
+    color: #2fdab8;
+}
+
+.multi-gd-text a:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.multi-gd-text a:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.multi-gd-text a::before {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease-out 0s;
+    z-index: 99;
+    content: "";
+}
+
+.multi-gd-text a::after {
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease-out 0s;
+    z-index: 99;
+    content: "";
+}
+
+.multi-gd-text a {
+    display: block;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.col-100 {
+    width: 100%;
+
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

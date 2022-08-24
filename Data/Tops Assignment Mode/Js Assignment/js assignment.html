@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        .flex-box {
+            display: flex;
+        }
+
+        .block-box {
+            display: block;
+        }
+
+        .box-1,
+        .box-2 {
+            border: 1px solid royalblue;
+            margin: 0px 50px;
+        }
+        .container{
+            width: 1200px;
+            margin: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Module (JAVASCRIPT BASIC & DOM) – 4
+        </h1>
+    </header>
+    <main>
+        <div class="container">
+            <div>
+                <h3>
+                    (1) What is JavaScript?
+                </h3>
+                <blockquote>
+                    <p>
+                        Javascript is a dynamic computer programming language. It is lightweight and most commonly used
+                        as a
+                        part of web pages, whose implementations allow client-side script to interact with the user and
+                        make
+                        dynamic pages. It is an interpreted programming language with object-oriented capabilities.
+                    </p>
+                </blockquote>
+            </div>
+            <div>
+                <h3>
+                    (2) What is the use of isNaN function?
+                </h3>
+                <blockquote>
+                    <p>
+                        The isNaN() function is used to check whether a given value is an illegal number or not. It
+                        returns
+                        true if value is a NaN else returns false. It is different from the Number.isNaN() Method.
+                    </p>
+                    <b> Syntax: </b> isNaN( value )
+                    example: <br>
+                    <script>
+                        document.write(isNaN(12) + "<br>");
+                        document.write(isNaN(0 / 0) + "<br>");
+                        document.write(isNaN(12.3) + "<br>");
+                        document.write(isNaN("Geeks") + "<br>");
+                        document.write(isNaN("13/12/2020") + "<br>");
+                        document.write(isNaN(-46) + "<br>");
+                        document.write(isNaN(NaN) + "<br>");
+                    </script>
+                </blockquote>
+            </div>
+            <div>
+                <h3>
+                    (3) What is negative Infinity?
+                </h3>
+                <blockquote>
+                    <p>
+                        The negative infinity in JavaScript is a constant value which is used to represent a value which
+                        is
+                        the lowest available. This means that no other number is lesser than this value. It can be
+                        generated
+                        using a self-made function or by an arithmetic operation.
+                    </p>
+                </blockquote>
+            </div>
+
+            <div>
+                <h3>
+                    (4) Which company developed JavaScript?
+                </h3>
+                <blockquote>
+                    <p>
+                        JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape
+                    </p>
+                </blockquote>
+            </div>
+            <div>
+                <h3>
+                    (5)What are undeclared and undefined variables?
+                </h3>
+                <blockquote>
+                    <p>
+                        •Undefined variable means a variable has been declared but it does not have a value.
+                    </p>
+                    <p>
+                        •Undeclared variable means that the variable does not exist in the program at all.
+                    </p>
+                </blockquote>
+            </div>
+            <div>
+                <h3>
+                    (6)Write the code for adding new elements dynamically?
+                </h3>
+                <blockquote>
+                    <div id="new">
+                        <button onclick="myFunction()">Click me</button>
+                    </div>
+
+                    <script>
+                        function myFunction() {
+                            // document.getElementById("demo").innerHTML = "I  AM  NARESH";
+                            var tag = document.createElement("p");
+                            var text = document.createTextNode("Tutorix is the best e-learning platform");
+                            tag.appendChild(text);
+                            var element = document.getElementById("new");
+                            element.appendChild(tag);
+                        }
+
+                    </script>
+
+                </blockquote>
+            </div>
+            <div>
+                <h3>
+                    (7) What is the difference between ViewState and SessionState?
+                </h3>
+                <blockquote>
+                    <p>
+                        The basic difference between these two is that the ViewState is to manage state at the client's
+                        end,
+                        making state management easy for end-user while SessionState manages state at the server's end,
+                        making it easy to manage content from this end too. ViewState: It is maintained at only one
+                        level
+                        that is page-level.
+                    </p>
+                    <p>
+                    <pre>
+                    <b>
+                        SessionState:
+                    </b>
+
+                    •  Can be persisted in memory, which makes it a fast solution. Which means state cannot be shared in
+                    •  the Web Farm/Web Garden.
+                    •  Can be persisted in a Database, useful for Web Farms / Web Gardens.
+                    •  Is Cleared when the session dies - usually after 20min of inactivity.
+                    <b>
+                        ViewState:
+                    </b>
+
+                    •  Is sent back and forth between the server and client, taking up bandwidth.
+                    •  Has no expiration date.
+                    •  Is useful in a Web Farm / Web Garden
+                 </pre>
+                    </p>
+                </blockquote>
+            </div>
+            <div>
+                <h3>
+                    (8)What is === operator?
+                </h3>
+                <blockquote>
+                    <p>
+                        The strict equality operator (===) checks whether its two operands are equal, returning a
+                        Boolean
+                        result. Unlike the equality operator, the strict equality operator always considers operands of
+                        different types to be different.
+                    </p>
+                </blockquote>
+            </div>
+            <div>
+                <h3>
+                    (9)How can the style/class of an element be changed?
+                </h3>
+                <blockquote>
+                    <button onclick="changeclass()">Click me</button>
+                    <div class="flex-box " id="myDiv">
+                        <div class="box-1">
+                            I am a Naresh
+                        </div>
+                        <div class="box-2">
+                            I am a Student
+                        </div>
+                    </div>
+                </blockquote>
+                <script>
+                    function changeclass() {
+                        var element = document.getElementById("myDiv")
+                        element.classList.remove("flex-box")
+                        element.classList.add("block-box")
+
+                    }
+                </script>
+            </div>
+
+            <div>
+                <h3>
+                    (10)How to read and write a file using JavaScript?
+                </h3>
+                <blockquote>
+                    <div>
+                        <p></p>
+                    </div>
+                </blockquote>
+            </div>
+            <script>
+
+            </script>
+            <div>
+                <h3>
+                    (11)What are all the looping structures in JavaScript?
+                </h3>
+                <blockquote>
+                    <p>
+                        <b>
+                            Different Types of Loops in JavaScript:
+                        </b>
+                    </p>
+                    <p>
+                    <pre>
+                    <b> while — </b>loops through a block of code as long as the condition specified evaluates to true.
+                    <b> do…while —</b> loops through a block of code once; then the condition is evaluated. If the
+                    condition is
+                    true, the statement is repeated as long as the specified condition is true.
+                    <b> for —</b> loops through a block of code until the counter reaches a specified number.
+                    <b> for…in —</b> loops through the properties of an object.
+                    <b> for…of — </b>loops over iterable objects such as arrays, strings, etc.
+                </pre>
+                    </p>
+
+                </blockquote>
+            </div>
+
+            <div>
+                <h3>
+                    (12)How can you convert the string of any base to an integer in JavaScript?
+                </h3>
+                <blockquote>
+                    <button onclick="StringConversion()">convert string to integer</button>
+                    <p id="value">
+
+                    </p>
+                </blockquote>
+                <script>
+                    let StringConversion = (string_value, base) => {
+                        console.log(
+                            "String value is : " + string_value +
+                            " and base value is: " + base
+                        );
+                        let Integer_value = parseInt(string_value, base);
+                        console.log("Integer value is: " + Integer_value);
+                    };
+
+                    StringConversion("1011", 2);
+                    StringConversion("101", 10);
+                    StringConversion("10002", 8);
+                </script>
+            </div>
+
+            <div>
+                <h3>
+                    (13) What is the function of the delete operator?
+                </h3>
+                <blockquote>
+                    <p>
+                        The JavaScript delete operator removes a property from an object; if no more references to the
+                        same property are held, it is eventually released automatically.
+                    </p>
+                </blockquote>
+            </div>
+
+
+            <div>
+                <h3>
+                    (14)What are all the types of Pop up boxes available in JavaScript?
+                </h3>
+                <blockquote>
+                    <p>
+                        <b>There are 3 types of pop up boxes available in JavaScript:</b>
+                    <pre>
+                        1. Alert
+                        2. Confirm 
+                        3. Prompt
+                    </pre>
+                    </p>
+                </blockquote>
+            </div>
+
+            <div>
+                <h3>
+                    (15)What is the use of Void (0)?
+                </h3>
+                <blockquote>
+                    <p>
+                        JavaScript void 0 means returning undefined (void) as a primitive value. You might come across
+                        the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side
+                        effects caused while inserting an expression in a web page.
+                    </p>
+                </blockquote>
+            </div>
+
+            <div>
+                <h3>
+                    (16)How can a page be forced to load another page in JavaScript?
+                </h3>
+                <blockquote>
+                    <p>
+                        Approach: We can use window.location property inside the script tag to forcefully load another
+                        page in Javascript. It is a reference to a Location object that is it represents the current
+                        location of the document. We can change the URL of a window by accessing it.
+                    </p>
+                    <button onclick="force_load_js()"> forced to load another page in JavaScript</button>
+                </blockquote>
+
+            </div>
+            <script>
+                function force_load_js() {
+                    window.location = "https://www.geeksforgeeks.org/"
+                }
+            </script>
+
+            <div>
+                <h3>
+                    (17)What are the disadvantages of using innerHTML in JavaScript?
+                </h3>
+                <blockquote>
+                    <p>
+                        There is no append support without reparsing the whole innerHTML. This makes changing innerHTML
+                        directly very slow. innerHTML does not provide validation and therefore we can potentially
+                        insert valid and broken HTML in the document and break it.
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
